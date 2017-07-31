@@ -26,7 +26,7 @@ $(document).ready(function(){
     var sports = $(this).html(); 
     console.log(sports);
     
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + sports + "&api_key=bf770616265c49f1b420ae303caf9b6c&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + sports + "&api_key=bf770616265c49f1b420ae303caf9b6c&limit=10";
         console.log(queryURL);
         $.ajax({url: queryURL, method: 'GET'})
         .done(function(response) {
