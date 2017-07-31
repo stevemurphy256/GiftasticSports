@@ -1,0 +1,21 @@
+.styles {
+	font-family: 'Lora', serif;
+	text-align: center;
+}
+#wrapper {
+	background-color: #a52a2a;
+}
+
+.sports, #addSports{
+	padding: 8px;
+	margin: 10px;
+	color: white;
+	background-color: #660033;
+	border-radius: 10px;
+}
+.sports:hover, #addSports:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+form {
+	margin: 20px;
+}
